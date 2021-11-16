@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(./Montserrat/Montserrat-Light.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 2rem;
+    background: #FAEFE3;
+}
+
+#table {
+    justify-content: center;
+    padding: 5px
+}
+
+.title {
+    position: absolute;
+    left: 8.53%;
+    right: 54.93%;
+    top: 5.18%;
+    bottom: 89.64%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 132%;
+    /* identical to box height, or 32px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    
+    color: #12121F;     
+}
+
+ul {
+    position: absolute;
+    top: 70px;
+}
+
+.tab-button {
+    position: absolute;
+    height: 5.933690547943115px;
+    width: 11.86738109588623px;
+    left: 280px;
+    top: 25px;
+    border-radius: 0px;
+    border: 1.5px solid #12121F;
+    
+}
+
+.tab-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    /* identical to box height, or 144% */
+    padding-top: 10px;
+    letter-spacing: 0.25px;
+    
+    color: #12121F;      
+}
+
+.free-shipping-tab {      
+    position: absolute;
+    left: 8.53%;
+    right: 8.53%;
+    top: 77.35%;
+    bottom: 14.89%;
+    
+    background: #F9F9FC;
+    border-radius: 24px;    
+}
+
+.reviews-tab {  
+    position: absolute;
+    left: 8.53%;
+    right: 8.53%;
+    top: 86.73%;
+    bottom: 5.5%;
+    
+    background: #F9F9FC;
+    border-radius: 24px;
+}
+
+.item-image {
+    position: fixed;
+    height: 94px;
+    width: 94px;
+    
+    mix-blend-mode: normal;
+    transform: matrix(-1, 0, 0, 1, 0, 0);    
+}
+
+.column2 {
+    position: absolute;
+    left: 150px;
+    padding-top: 10px
+}
+
+.best-card {
+    position: absolute;
+    top: 10px;
+    height: 618px;
+    width: 375px;
+        
+    background: #FFFFFF;
+    border-radius: 24px;
+    justify-content: center
+}
+
+.best-item {
+    height: 120px;
+    width: 295px;
+        
+    background: #FEF2EE;
+    border-radius: 24px;   
+}
+
+.name {    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    
+    color: #FE805C;    
+}
+
+.brand {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.25px;
+    
+    color: #AFAFBD;    
+}
+
+.price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    
+    color: #12121F;    
+}
+
+.image {   
+    position: absolute; 
+    height: 48px;
+    width: 48px;
+    left: 20px;
+    top: 20px;
+    border-radius: 24px;   
+}
+
+.chat-card {
+    bottom: 100px;
+    right: 200px;
+    position: fixed;
+    width: 375px;
+    height: 154px;
+    background: #4643D3;
+    border-radius: 24px 24px 0px 0px;  
+}
+
+.chat-input {
+    position: fixed;
+    bottom: 42px;
+    right: 200px;
+    width: 372px;
+    height: 58px;    
+    background: #FFFFFF;
+    border-radius: 0px 0px 24px 24px;
+    border: none    
+}
+
+.submit-button {
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    right: 20px;
+    bottom: 24px;
+    border: none;
+    background: none;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #4441D2;    
+}
+
+::placeholder {
+    width: 160px;
+    height: 24px;
+    left: 198px;
+    top: 589px;
+    padding-left: 15px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+
+    color: #AFAFBD;    
+}
+
+.chat-name {
+    position: absolute;
+    width: 140px;
+    height: 18px;
+    left: 85px;
+    top: 20px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    
+    color: #FFFFFF;    
+}
+
+.chat-job {
+    position: absolute;
+    width: 95px;
+    height: 15px;
+    left: 85px;
+    top: 45px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.5;    
+}
+
+.chat-content {
+    position: absolute;
+    width: 311px;
+    height: 45px;
+    left: 20px;
+    top: 75px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #FFFFFF;    
+}
+
+.close-button {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;  
+    color: #FFFFFF;
+    opacity: 0.5;
+    position: absolute;
+    top: 15px;
+    left: 335px;
+    font-size: 15px;
+}
